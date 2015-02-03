@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.5p273'
+ruby '2.1.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
@@ -37,6 +37,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
+gem 'devise', '~> 3.4.1'
 
 group :development, :test do 
 	# Use sqlite3 as the database for Active Record
