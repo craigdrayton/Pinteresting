@@ -39,8 +39,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'devise', '~> 3.4.1'
 
-gem 'paperclip', '~> 4.2.1'
-gem 'aws-sdk',  '~> 2.0.22'
+gem 'paperclip'
+gem 'aws-sdk'
 
 group :development, :test do 
 	# Use sqlite3 as the database for Active Record
