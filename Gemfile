@@ -8,7 +8,10 @@ gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.0.0'
+
+# Bugfix http://stackoverflow.com/questions/28241981/rails-4-execjsprogramerror-in-pageswelcome
+gem 'coffee-script-source', '1.8.0'
 
 # Use Bootstrap for the front-end framework
 gem 'bootstrap-sass', '~> 3.3.3'
@@ -44,7 +47,7 @@ gem 'devise', '~> 3.4.1'
 gem 'paperclip'
 gem 'aws-sdk', '~> 1.61.0'
 
-gem 'masonry-rails', '~>0.2.0'
+gem 'masonry-rails', '~> 0.2.0'
 
 group :development, :test do 
 	# Use sqlite3 as the database for Active Record
