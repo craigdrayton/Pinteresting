@@ -17,3 +17,6 @@
 
 # Ignore file with AWS secret keys
 rootkey.csv
+
+# Ignore user-uploaded photos saved in Public
+/public/system/*
