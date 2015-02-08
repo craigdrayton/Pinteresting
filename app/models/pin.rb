@@ -4,4 +4,6 @@ class Pin < ActiveRecord::Base
 		:styles => { :medium => "300x300>", :thumb => "100x100>" },
 		:bucket => 'craigs-pinteresting'
 	validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
+
+	validates :image, presence: true
 end
